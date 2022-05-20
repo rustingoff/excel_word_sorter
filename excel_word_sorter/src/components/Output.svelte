@@ -76,10 +76,9 @@
     .output-content {
         border: 1px solid #aaa;
 
-        max-width: 30rem;
-        min-width: 30rem;
-        min-height: 5rem;
-        max-height: 65vh;
+        font-size: 1.1em;
+        min-width: 20vw;
+        min-height: 60vh;
         overflow: scroll;
     }
 

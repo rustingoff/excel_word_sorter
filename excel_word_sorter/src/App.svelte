@@ -1,17 +1,13 @@
 <script>
-    import Input from "./components/Input.svelte";
-    import Output from "./components/Output.svelte";
-    import Word from "./components/Word.svelte";
-    import Phrase from "./components/Phrase.svelte";
 
+
+import Dashboard from './routes/dashboard.svelte'
 
 </script>
 
 <main>
-    <Input />
-    <Output />
-    <Word />
-    <Phrase />
+<Dashboard />
+
 </main>
 
 <svelte:head>
@@ -24,7 +20,7 @@
         padding: 0;
     }
 
-    main {
+    main div {
         display: flex;
         max-width: 100%;
         justify-content: space-around;

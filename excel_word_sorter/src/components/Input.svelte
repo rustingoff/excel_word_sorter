@@ -46,10 +46,8 @@
 
     textarea {
         font-size: 1.1em;
-        max-width: 30rem;
-        min-width: 30rem;
+        min-width: 20vw;
         min-height: 60vh;
-        max-height: 65vh;
     }
 
     button img{
