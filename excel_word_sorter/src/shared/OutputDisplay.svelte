@@ -15,7 +15,7 @@
         });
         await outputStore.update((currentStore => {
             return currentStore.filter((item) => {
-                for (let i = 0; i < item.split(" ").length;) {
+                for(let i = 0; i < item.split(" ").length; i++) {
                     if (item.split(" ").includes(w)) {
                         phraseStore.update(pStore => {
                             return [item, ...pStore];
